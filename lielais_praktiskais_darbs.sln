@@ -1,19 +1,26 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lielais_praktiskais_darbs.Plugins", "lielais_praktiskais_darbs.Plugins.csproj", "{AE35995C-4C9B-3AFA-72D8-14FEE0D197D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lielais_praktiskais_darbs.Editor.Plugins", "lielais_praktiskais_darbs.Editor.Plugins.csproj", "{311C0084-60F5-539E-C7E3-ADE42FBDF922}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{AE35995C-4C9B-3AFA-72D8-14FEE0D197D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE35995C-4C9B-3AFA-72D8-14FEE0D197D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE35995C-4C9B-3AFA-72D8-14FEE0D197D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE35995C-4C9B-3AFA-72D8-14FEE0D197D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{311C0084-60F5-539E-C7E3-ADE42FBDF922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{311C0084-60F5-539E-C7E3-ADE42FBDF922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{311C0084-60F5-539E-C7E3-ADE42FBDF922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{311C0084-60F5-539E-C7E3-ADE42FBDF922}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
